@@ -118,9 +118,7 @@ export default {
       this.title = v
       this.dialogVisible = true
     },
-    onSubmit() {
-      console.log(this.form)
-    }
+    onSubmit() {}
   },
   created() {},
   mounted() {},

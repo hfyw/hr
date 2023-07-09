@@ -13,22 +13,3 @@ export function ProcessingTree(arr) {
   })
   return newArr
 }
-// import vue from 'vue'
-
-// export function settreelist(arr) {
-//   var list = arr
-//   var newlist = list.filter((item) => !item.pid)
-//   var Secondarylist = list.filter((item) => item.pid)
-//   console.log(newlist, Secondarylist)
-
-//   newlist.forEach((item) => {
-//     vue.set(item, 'children', [])
-
-//     Secondarylist.forEach((ite) => {
-//       if (ite.pid == item.id) {
-//         item.children.push(ite)
-//       }
-//     })
-//   })
-//   return newlist
-// }

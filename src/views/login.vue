@@ -57,7 +57,6 @@ export default {
       this.$refs[formName].validate((valid) => {
         if (valid) {
           getlogin(this.ruleForm).then((res) => {
-            console.log(res, '登录的数据')
             const { code, data } = res //结构code和data
             if (code == STATUS.CODE) {
               // 判断是否是后台返回的成功的状态码

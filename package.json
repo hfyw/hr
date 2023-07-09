@@ -16,6 +16,7 @@
     "core-js": "^3.8.3",
     "element-ui": "^2.15.13",
     "express": "^4.18.2",
+    "file-saver": "^2.0.5",
     "husky": "^8.0.3",
     "js-cookie": "^3.0.5",
     "mockjs": "^1.1.0",

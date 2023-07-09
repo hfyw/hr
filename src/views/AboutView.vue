@@ -1,7 +1,5 @@
 <template>
-  <div class="about">
-    <img src="../assets/common/logo.png" alt="" class="logo" />
-  </div>
+  <div></div>
 </template>
 
 <script>
@@ -18,10 +16,4 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-.about {
-  background: #000;
-  .logo {
-  }
-}
-</style>
+<style lang="scss" scoped></style>
